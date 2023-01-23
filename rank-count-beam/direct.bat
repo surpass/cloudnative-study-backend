@@ -1,0 +1,1 @@
+mvn compile exec:java -D exec.mainClass=cn.easyolap.bigdata.WordCount -D exec.args="--inputFile=sample.txt --output=counts" -P direct-runner
